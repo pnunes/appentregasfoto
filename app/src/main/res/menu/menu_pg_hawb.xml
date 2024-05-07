@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/menu_entregador"
+        android:id="@+id/itemEntregador"
+        />
+    <item
+        android:title="@string/menu_ocorrencia"
+        android:id="@+id/itemOcorrencia"
+        />
+    <item
+        android:title="@string/menu_conculta_hawb"
+        android:id="@+id/itemConsultaHawb"
+        />
+    <item
+        android:title="@string/menu_todas_hawb"
+        android:id="@+id/item_todas_hawb"
+        />
+    <item
+        android:title="@string/menu_limpa_hawb"
+        android:id="@+id/itemLimpataHawb"
+        />
+    <item
+        android:title="@string/menu_imagem_hawb"
+        android:id="@+id/item_imagem_hawb"
+        />
+</menu>

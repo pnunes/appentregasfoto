@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityMostraHawbEntregue" >
+
+    <TextView
+        android:id="@+id/tv_total_hawb_entregue"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="#D82525"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lista_hawbs_entregues"
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/fundo_listas" />
+
+    <Button
+        android:id="@+id/btn_envia_dados_servidor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/enviar_movimento_servidor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

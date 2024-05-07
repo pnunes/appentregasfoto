@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Gerente Entregas M.1.1</string>
+    <string name="editText_Usuario">Usuario</string>
+    <string name="editText_Senha">Senha</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="btn_importa_hawb">IMPORTA HAWB DA BASE</string>
+    <string name="menu_entregador">Entregador</string>
+    <string name="menu_ocorrencia">Ocorrência</string>
+    <string name="menu_conculta_hawb">Envia Dados p/ Base</string>
+    <string name="menu_todas_hawb">Mostra Todas HAWB</string>
+    <string name="menu_limpa_hawb">Limpa Base Dados</string>
+    <string name="menu_imagem_hawb">Imagem HAWB</string>
+    <string name="btn_importa_entregador">Importa Entregador</string>
+    <string name="btn_importa_ocorre">Importa Ocorrencia</string>
+    <string name="tv_titulo_ocorre">Relação de Ocorrências</string>
+    <string name="tv_titulo_entregador">Entregador Habilitado</string>
+    <string name="editText_cnpj_cpf_entrega">Informe CNPJ/CPF entregador</string>
+    <string name="tvTituloListaHawb">HAWBs Para Entrega :</string>
+    <string name="editText_Numero_hawb">Numero HAWB</string>
+    <string name="btn_baixa_hawb">SALVA OS DADOS</string>
+    <string name="editText_Nome_recebedor">Nome recebedor</string>
+    <string name="editText_documento_recebedor">Documento recebedor</string>
+    <string name="enviar_movimento_servidor">Enviar Movimento Servidor</string>
+    <string name="editTextText_hrentrega">Hora Entrega</string>
+    <string name="editTextTextSituacaoHawb">Enviado Base</string>
+    <string name="bt_buscaHawb">Busca</string>
+    <string name="title_activity_baixa_hawb_foto">ActivityBaixaHawbFoto</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>

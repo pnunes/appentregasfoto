@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_nu_hawb"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/purple_700"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_destino"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="5dp"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_rua"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="5dp"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_bairro"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="5dp"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_cidade"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="5dp"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_l_destino"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="300dp"
+        android:text="DESTINO:"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_l_rua"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="295dp"
+        android:text="RUA:"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_l_birro"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="290dp"
+        android:text="BAIRRO:"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_l_cidade"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="295dp"
+        android:text="CIDADE:"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+</FrameLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityHAWB">
+
+    <TextView
+        android:id="@+id/tvTituloListaHawb"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#3F51B5"
+        android:paddingTop="5dp"
+        android:text="@string/tvTituloListaHawb"
+        android:textAlignment="center"
+        android:textColor="#FDFAFA"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_quantidade_de_hawbs"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="70dp"
+        android:text="QTD"
+        android:textAlignment="center"
+        android:textColor="#EC2323"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/List_Hawb"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/fundo_listas" />
+
+    <Button
+        android:id="@+id/btn_importa_hawb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+        android:minHeight="32dp"
+        android:text="@string/btn_importa_hawb"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+</FrameLayout>

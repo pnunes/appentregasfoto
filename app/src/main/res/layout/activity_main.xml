@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_app_foto"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText_Usuario"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="260dp"
+        android:autofillHints="username"
+        android:background="@drawable/fundo_edit"
+        android:drawableStart="@drawable/ic_usuario"
+        android:textColorHint="#ffffff"
+        android:ems="10"
+        android:hint="@string/editText_Usuario"
+        android:inputType="textPersonName"
+        android:textColor="#ffffff"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editText_Senha"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="350dp"
+        android:autofillHints="username"
+        android:background="@drawable/fundo_edit"
+        android:drawableStart="@drawable/ic_senha"
+        android:ems="10"
+        android:hint="@string/editText_Senha"
+        android:textColorHint="#ffffff"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btn_entrar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="550dp"
+        android:text="@string/btn_entrar"
+        android:backgroundTint="@color/material_dynamic_neutral30"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+</FrameLayout>
